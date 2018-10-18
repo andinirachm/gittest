@@ -1,0 +1,531 @@
+<resources>
+    <string name="app_name">Alomedika EBEBEB</string>
+    <string name="version">1.8.0</string>
+    <string name="version_id">1.8.0</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="new_relic_token_id">AA485cbe743ee04beab90410910f5753d9f69ccae3</string>
+    <string name="gcm_project_number">909288825341</string>
+    <string name="appflyer_token">BWNwJgFngyYmt9kxb6K5Yf</string>
+    <string name="appflyer_user_id">Alomedika</string>
+
+    <!--TODO will add facebook app id later-->
+    <string name="facebook_app_id"></string>
+
+    <string name="title_error">Network Error</string>
+    <string name="close_error">Close</string>
+    <string name="try_error">Try Again</string>
+    <string name="search_oops">Oops, anda harus menginputkan 3 huruf</string>
+    <string name="connection_problem">Koneksi Bermasalah</string>
+
+    <string name="title_answer">Jawab</string>
+    <string name="title_my_answer">Jawaban Saya</string>
+    <string name="title_doctor">Dokter</string>
+    <string name="title_home">Halaman Utama</string>
+    <string name="title_log_out">Keluar</string>
+    <string name="title_main">Alomedika</string>
+    <string name="title_my_time_slot">Jadwal Saya</string>
+    <string name="title_order_scedule">Booking Jadwal</string>
+    <string name="title_pedoman">Pedoman Dokter</string>
+    <string name="title_profile">Profil Saya</string>
+    <string name="title_statistik">Statistik Saya</string>
+    <string name="title_patient_info">Edukasi Pasien</string>
+
+    <string name="image_prompt">Dipilih dari:</string>
+    <string name="list">Daftar</string>
+    <string name="title_renumerated">Apakah Anda ingin mendapatkan bayaran atas pertanyaan yang Anda jawab?</string>
+    <string name="confirmasi_renumerated">Pastikan data yang Anda masukan sudah benar? </string>
+    <string name="title_more">Selengkapnya</string>
+    <string name="confirmation_booking_slot">Apakah Anda ingin menambahkan jadwal tersebut untuk sekali saja atau setiap minggu?</string>
+    <string name="confirmation_delete_slot">Apakah Anda yakin ingin menghapus jadwal ini?</string>
+    <string name="title_delete_slote">Hapus Jadwal</string>
+
+    <string-array name="image_arrays">
+        <item>Galleri</item>
+        <item>Kamera</item>
+        <item>Share Alodokter article</item>
+        <!-- <item>Penyakit</item>
+         <item>Obat</item>-->
+    </string-array>
+
+    <string-array name="upload_image_arrays">
+        <item>Galleri</item>
+        <item>Kamera</item>
+    </string-array>
+
+    <string-array name="gender_arrays">
+        <item>Jenis Kelamin</item>
+        <item>laki-laki</item>
+        <item>perempuan</item>
+    </string-array>
+
+    <string-array name="profession_arrays">
+        <item>Pilih Profesi</item>
+        <item>Dokter</item>
+    </string-array>
+
+    <string-array name="statistik_array_date">
+        <item>Hari ini</item>
+        <item>7 hari yang lalu </item>
+        <item>30 hari yang lalu </item>
+        <item>Semua waktu</item>
+    </string-array>
+
+    <string-array name="statistik_array_date_value">
+        <item>0</item>
+        <item>4</item>
+        <item>3</item>
+        <item>9</item>
+    </string-array>
+
+    <string-array name="status_arrays">
+        <item>Online</item>
+        <item>Offline</item>
+    </string-array>
+
+    <string-array name="time_arrays">
+        <item>00:00</item>
+        <item>01:00</item>
+        <item>02:00</item>
+        <item>03:00</item>
+        <item>04:00</item>
+        <item>05:00</item>
+        <item>06:00</item>
+        <item>07:00</item>
+        <item>08:00</item>
+        <item>09:00</item>
+        <item>10:00</item>
+        <item>11:00</item>
+        <item>12:00</item>
+        <item>13:00</item>
+        <item>14:00</item>
+        <item>15:00</item>
+        <item>16:00</item>
+        <item>17:00</item>
+        <item>18:00</item>
+        <item>19:00</item>
+        <item>20:00</item>
+        <item>21:00</item>
+        <item>22:00</item>
+        <item>23:00</item>
+        <item>24:00</item>
+    </string-array>
+
+    <!--    Button    -->
+    <string name="answer">Jawab</string>
+    <string name="submit">Pilih</string>
+    <string name="send">Kirim</string>
+    <string name="close_question">TEKAN UNTUK MENUTUP PERTANYAAN</string>
+    <string name="filter_button_title">Saring</string>
+    <string name="add">Tambah</string>
+    <string name="cancel">TEKAN UNTUK MEMBATALKAN PERTANYAAN</string>
+    <string name="cannot_access_data">Data tidak bisa diakses, silakan periksa koneksi internet Anda</string>
+    <string name="initializing_data">Pengambilan data, mohon tunggu…</string>
+    <string name="waiting_message">Menunggu jawaban dari user… </string>
+
+    <!--    EditText    -->
+    <string name="desc">Deskripsi:</string>
+
+    <string name="chat_me">Saya</string>
+    <string name="speciality">Spesialisasi</string>
+    <string name="popularity">Popularity</string>
+    <string name="city">Kota</string>
+    <string name="answered_by">Dijawab oleh</string>
+    <string name="not_answered_yet">"Belum dijawab</string>
+    <string name="type_message_hint">Ketik Pesan</string>
+    <string name="conversation_closed">Percakapan ini sudah ditutup</string>
+    <string name="chat_me_title">Saya</string>
+    <string name="chat_me_title_bot">Bot</string>
+    <string name="sending_progress">progress&#8230;</string>
+    <string name="sending_error">pengiriman bermasalah!</string>
+    <string name="latest_questions_answered_title">PERTANYAAN TERBARU YANG SUDAH DIJAWAB</string>
+    <string name="there_is_no_question">Tidak ada pertanyaan</string>
+    <string name="there_is_no_hospital">Tidak ada tempat praktek</string>
+    <string name="there_is_no_education">Tidak ada riwayat pendidikan</string>
+    <string name="time_now">Hari ini</string>
+    <string name="time_yesterday">Kemarin</string>
+    <string name="conclusion_tolak">Rekomendasi diagnosa ditolak oleh dokter</string>
+    <string name="conclusion_edit">Rekomendasi diagnosa diedit oleh dokter</string>
+
+    <string name="text_no_content">Tidak ada pertanyaan untuk sementara</string>
+    <string name="provide_age_label">Silahkan masukkan umur Anda</string>
+    <string name="description_label">Deskripsi</string>
+    <string name="asked_by">Ditanya oleh</string>
+    <string name="title_internet_problem">Koneksi Bermasalah</string>
+    <string name="session_over">Session Anda telah berakhir, Silahkan login kembali</string>
+    <string name="ok">Oke</string>
+    <string name="back">Kembali</string>
+    <string name="statement">\n(Perlu diingat, seorang dokter tidak dapat menegakkan diagnosis maupun memberikan terapi tanpa melakukan pemeriksaan fisik secara langsung).</string>
+
+    <!-- detail doctor-->
+
+    <!-- buttonLoginAction Activity -->
+    <string name="login_button_title">Masuk</string>
+    <string name="email_address_hint">Alamat Email</string>
+    <string name="password_hint">Kata Sandi</string>
+    <string name="no_data">Tidak ada data</string>
+    <string name="forgot_password"><u>Lupa kata sandi?</u></string>
+    <string name="insert_valid_email_for_forgot_pass">Masukkan email anda</string>
+    <string name="dialog_processing_title">memproses&#8230;</string>
+    <string name="insert_email">Masukkan email anda</string>
+
+    <!-- Sign Up Activity -->
+    <string name="create_account">Buat Akun</string>
+    <string name="create_new_account">Buat Akun Baru</string>
+    <string name="first_name_hint">Nama Lengkap</string>
+    <string name="last_name_hint">Nama Belakang</string>
+    <string name="username_hint">Username</string>
+    <string name="age_hint">Umur</string>
+    <string name="create_button_title">Buat</string>
+    <string name="update_button_title">Perbarui</string>
+    <string name="delete_button_title">Hapus</string>
+    <string name="phone_hint">No. Telp</string>
+    <string name="phone_example">Format telepon salah, contoh format : 8xxxx atau 21xxxx</string>
+    <string name="description_hint">Deskripsikan Profesi Anda (Maks 20 karakter)</string>
+    <string name="specialities_hint">Bidang Anda</string>
+    <string name="graduation_date">Tahun Kelulusan</string>
+    <string name="birth_date">Tanggal Lahir</string>
+    <string name="select_gender_hint">Jenis Kelamin</string>
+    <string name="select_city_hint">Pilih Kota</string>
+    <string name="select_doctor_speciality_hint">Pilih Spesialis</string>
+    <string name="registration_number">No. Registrasi IDI</string>
+    <string name="str_number">Nomor STR</string>
+    <string name="remunerasi">Remunerasi</string>
+    <string name="text_catatan_remunerasi">Catatan : Jika Anda memilih TIDAK maka Anda tidak dapat menjawab pertanyaan namun akan bergabung pada komunitas dokter  </string>
+    <string name="question_remunerasi">Apakah Anda ingin mendapatkan bayaran atas pertanyaan yang Anda jawab?</string>
+    <string name="questionwizard_title">Silahkan jawab pertanyaan berikut</string>
+    <string name="warm_questionsignup">Jawaban Anda akan menjadi bahan pertimbangan dalam proses verifikasi akun Anda.</string>
+    <string name="perhation_questionsignup">PERHATIAN :</string>
+    <string name="silahkan_jawab_disini">Silahkan jawab disini :</string>
+    <string name="send_question">Kirim</string>
+    <string name="skip_question">Lewati</string>
+    <string name="status">status</string>
+    <string name="idi_card_upload">Unggah ID Card</string>
+    <string name="str_certificate">Sertifikat STR</string>
+    <string name="upload_str">Upload</string>
+    <string name="next">Lanjut</string>
+    <string name="str_certificate_hint">*Sertifikat STR boleh dilewati</string>
+
+    <!-- Error Message  -->
+
+    <string name="internetconnection_error_message">Koneksi internet bermasalah, silahkan periksa kembali koneksi internet anda</string>
+    <string name="nobody_asking_question">Tidak ada yang bertanya</string>
+    <string name="fulltime_doctor">Anda Dokter Full Time</string>
+    <string name="guideline_error">Pedoman Alomedika</string>
+    <string name="notfound">Tidak ada data</string>
+
+    <!-- Profil Activity -->
+    <string name="update_picture_success">Unggah foto profil sukses</string>
+    <string name="update_profile_success">Profil sukses diperbarui</string>
+    <string name="no_content">Tidak ada konten</string>
+    <string name="title_edit_menu">Edit Your Profil</string>
+    <string name="title_graduation_date">Pilih Tanggal Lulus Anda</string>
+    <string name="title_birth_date">Pilih Tanggal Lahir Anda</string>
+    <string name="title_pick_specialities">Pilih Peminatan Anda</string>
+    <string name="title_speciality_minimum">Pilih Minimal %d Peminatan</string>
+    <string name="name_account">Nama Account</string>
+    <string name="no_account">No. Rekening</string>
+    <string name="name_bank">Nama bank</string>
+    <string name="cabang_account">Cabang</string>
+    <string name="dialog_bank_account">Apakah yakin data yang Anda masukan sudah benar?</string>
+    <string name="bank_account_not_found">Data akun bank Anda masih kosong</string>
+    <string name="note_bank_data">* Harap isi nomor rekening yang sesuai dengan atas nama Anda. Tidak boleh menggunakan rekening atas nama orang lain</string>
+
+    <!-- Progress Dialog -->
+    <string name="dialog_title_upload">Mengunggah</string>
+    <string name="dialog_title_update">Sedang memperbarui</string>
+    <string name="dialog_title_login_process">Harap tunggu, sedang proses masuk</string>
+    <string name="dialog_title_close_chat">Apakah Anda yakin ingin menutup pertanyaan ini?</string>
+    <string name="dialog_title_cancel_chat">Anda Yakin Ingin Membatalkan Pertanyaan Ini?</string>
+    <string name="dialog_title_logout">Anda Yakin Ingin Keluar?</string>
+    <string name="dialog_header_close">Tutup</string>
+    <string name="dialog_header_cancel">Batalkan</string>
+    <string name="dialog_button_yes">Ya</string>
+    <string name="dialog_button_no">Tidak</string>
+    <string name="dialog_button_report_spam">Apakah Anda yakin ingin melaporkan percakapan ini sebagai spam?</string>
+    <string name="dialog_please_wait">Mohon tunggu..</string>
+
+    <!-- Error Message EditText -->
+    <string name="error_firstname">Masukkan nama Anda</string>
+    <string name="error_lastname">Masukkan nama belakang anda</string>
+    <string name="error_account_name">Masukan nama account Anda</string>
+    <string name="error_number_rekening">Masukkan no rekening Anda</string>
+    <string name="error_nama_bank">Masukkan nama bank </string>
+    <string name="error_nama_cabang">Masukkan nama cabang </string>
+    <string name="error_phone_number">No telp. tidak boleh kosong</string>
+    <string name="error_phone_number_min">Phone number min %d</string>
+    <string name="error_age">Masukkan umur Anda</string>
+    <string name="error_email">Masukkan alamat email yang valid</string>
+    <string name="error_email_exist">Email sudah pernah digunakan</string>
+    <string name="error_password">Masukkan password Anda</string>
+    <string name="error_password_length">Password min %d karakter</string>
+    <string name="error_gender">Pilih Jenis Kelamin Anda</string>
+    <string name="error_city">Pilih Kota Anda</string>
+    <string name="error_doctor_speciality">Pilih Spesialis Anda</string>
+    <string name="error_start_time">Pilih jadwal mulai</string>
+    <string name="error_end_time">Pilih jadwal selesai</string>
+    <string name="error_graduation_date">Masukkan Tanggal Kelulusan Anda</string>
+    <string name="error_birth_date">Pilih Tanggal Lahir Anda</string>
+    <string name="error_reg_number">Masukkan No. Registrasi IDI Anda</string>
+    <string name="error_id_str_number">Masukkan No. Surat Tanda Registrasi Anda</string>
+    <string name="error_id_str_number_image">Masukkan Gambar Sertifikat Anda</string>
+    <string name="error_certificate_number">Masukkan Nomor sertifikat Anda</string>
+    <string name="error_certificate_image">Masukkan Gambar Sertifikat Anda</string>
+    <string name="error_university_name">Masukkan nama kampus Anda</string>
+    <string name="error_certificate">Masukkan gambar ijazah Anda</string>
+    <string name="error_days">Silahkan pilih hari</string>
+    <string name="error_thread_title">Judul Diskusi Wajib Diisi</string>
+    <string name="error_reply_title">Judul Balasan Wajib Diisi</string>
+    <string name="error_thread_content">Isi Diskusi Tidak Boleh Kosong</string>
+    <string name="error_reply_content">Isi Balasan Tidak Boleh Kosong</string>
+    <string name="error_display_text">Teks Tidak Boleh Kosong</string>
+    <string name="error_link_url">URL Tidak Boleh Kosong</string>
+    <string name="error_link_format">Format URL harus sesuai(contoh: http://www.alomedika.com)</string>
+
+    <string name="cancel_button">Batal</string>
+    <string name="save">Simpan</string>
+    <string name="saving_image">Gambar disimpan</string>
+    <string name="preparing_card">Preparing card</string>
+    <string name="no_storage_card">No storage card</string>
+    <string name="not_enough_space">Not enough space</string>
+    <string name="question_closed">ditutup</string>
+    <string name="question_active">active</string>
+    <string name="progress_pick_up">Proses Ambil Pertanyaan</string>
+    <string name="progress_general">Sedang proses</string>
+    <string name="update_google_service">Google Play Service Out of Date, Silahkan update google play service anda</string>
+    <string name="close">Tutup</string>
+    <string name="cancel_filter">Batal</string>
+    <string name="update">Update</string>
+    <string name="retry">Ulang</string>
+    <string name="later">Nanti</string>
+    <string name="timeslot_status">Anda Dokter Fultime</string>
+    <string name="timeslot_order_scedule">Jadwal kosong berikutnya yang tersedia adalah : </string>
+
+    <!--Toast-->
+    <string name="toast_success_register_title">Registrasi Anda berhasil</string>
+    <string name="toast_success_register">Tim kami akan memverifikasi akun Anda. Jika berhasil, akan dikonfirmasi melalui email.\n \n  <b>Anda tidak dapat melakukan login sebelum menerima email konfirmasi.</b></string>
+    <string name="toast_cancel_question">Pertanyaan ini telah dibatalkan</string>
+    <string name="toast_close_question">Pertanyaan ini telah ditutup</string>
+
+    <!--ViewPager Profile-->
+    <string name="title_general_profile">Profil</string>
+    <string name="title_regnumber_profile">Nomor IDI</string>
+    <string name="title_doctor_str_profile">Nomor STR</string>
+    <string name="title_education_profile">Pendidikan</string>
+    <string name="title_hospital_profile">Praktek</string>
+    <string name="title_interest_profile">Minat</string>
+    <string name="title_question_profile">Pertanyaan</string>
+    <string name="title_answer_profile">Jawaban</string>
+    <string name="title_bank_account">Bank Account</string>
+
+    <!--Edit Profile-->
+    <string name="university_hint">Universitas/Perguruan Tinggi</string>
+    <string name="specialist_hint">Jurusan</string>
+
+    <!--Menu Title-->
+    <string name="ask">JAWAB</string>
+    <string name="directory">INFO</string>
+    <string name="magazine">MAJALAH</string>
+    <string name="directory_magazine">Referensi Medis</string>
+
+    <!--Ad Unit DFP-->
+    <string name="banner_info_unit_id">/38162042/android_user_tab_info</string>
+    <string name="banner_magazine_unit_id">/38162042/android_user_tab_majalah</string>
+    <string name="banner_info_detail_unit_id">/38162042/android_user_tab_info</string>
+    <string name="banner_magazine_content_unit_id">/38162042/android_user_content_article</string>
+    <string name="banner_diseases_content_unit_id">/38162042/android_user_content_disease</string>
+    <string name="banner_drugs_content_unit_id">/38162042/android_user_content_drug</string>
+
+    <string name="search_hint">Search</string>
+    <string name="please_wait">Mohon tunggu …</string>
+    <string name="share_failed">Share Gagal</string>
+    <string name="error_search">Oops, anda harus menginputkan 3 huruf</string>
+    <string name="error_empty_answer">Silahkan masukkan jawaban Anda</string>
+    <string name="error_minimum_answer">Masukkan jawaban Anda, minimal 50 kata</string>
+    <string name="question_guidelines"><u>Panduan untuk menjawab pertanyaan</u></string>
+    <string name="list_guideline"><b>Guidelines Aplikasi Alomedika 2016</b>\r\n\r\n1. Setiap kali mengambil pertanyaan dan menutup pertanyaan, sudah tersedia template otomatis yang akan menyapa pasien, sehingga kata sapaan yang berulang tidak diperlukan.\r\n\r\n2. Sapalah kata ganti yang sesuai (Pak, Bu, Mas, dan sebagainya) dan diawali dengan huruf besar.\r\n\r\n3. Berikan respon pertama segera setelah mengambil pertanyaan, bisa dimulai dengan pertanyaan (eg: Sejak Kapan kondisi ini dialami? Apakah sudah berobat ke dokter?) atau dengan memberikan jawaban langsung atas pertanyaan pasien eg: (untuk mengetahui penyebab dari sakit kepala yang dialami, tentunya harus mempertimbangkan kemungkinan-kemungkinan yang ada, misalnya: sakit kepala primer, etc)\r\n\r\n4. Pemberian DD (Diagnosis Banding) merupakan suatu keharusan, dan DD harus berisi penjelasan secara singkat. DD harus 3, atau lebih.\r\n\r\n5. Berikan edukasi yang tepat pada pasien. Teori yang diberikan boleh bersumber dari buku atau pengalaman pribadi, namun tentunya harus di cross check dengan sumber yang reliable.\r\n\r\n6. Bangunlah suasana percakapan yang menyenangkan dengan pasien.\r\n\r\n7. Sangat tidak dianjurkan untuk mengarahkan diagnosa karena kita tidak memeriksa pasien secara langsung.\r\n\r\n8. Sarankan HANYA obat OTC (Over the Counter, label Hijau) saja, jika perlu. Eg: Paracetamol, OBH, dan obat-obatan berlabel hijau lainnya\r\n\r\n9. Selalu berikan Home Remedy (penanganan di rumah)\r\n\r\n10. Berikan pengetahuan mengenai adanya RED FLAG atau TANDA BAHAYA yang harus diketahui oleh pasien mengenai kondisi yang dialami oleh pasien, terutama pada kasus nyeri dada, nyeri kepala, atau benjolan dan kondisi lainnya\r\n\r\n11. SELALU SARANKAN UNTUK MENEMUI DOKTER\r\n\r\n12. Tidak diperlukan untuk menyertakan link di aplikasi, karena tujuan dari aplikasi ini adalah memberikan edukasi secara langsung, bukan menyuruh pasien membaca.\r\n\r\n13. Melakukan Copy Paste tidak disarankan, namun jika memang diperlukan pada kondisi tertentu boleh dilakukan dengan catatan tidak melakukan copy paste dari artikel lain (alodokter, atau website lain yang berhubungan dengan kesehatan), memakai template sendiri (karangan sendiri), dan lakukan dengan Smart Copas (disesuaikan dengan topik dan identitas pasien)\r\n\r\n14. Last but Not Least: Asam Mefenamat bukan OTC.</string>
+    <string name="question_count">Pertanyaan 1 dari 2</string>
+    <string name="confirmasi_education">Pastikan data yang telah anda masukkan sudah benar. Data tidak dapat berubah setelah konfirmasi ini.</string>
+    <string name="questionwizard_answer_hint">Silahkan jawab disini (minimal 50 kata)</string>
+    <string name="dialog_education_confirmation">Apakah Anda yakin data yang dimasukkan sudah benar?</string>
+
+    <!--Error type-->
+    <string name="cannot_access_init_data">Server bermasalah, silakan coba beberapa saat lagi</string>
+    <string name="sync_data">Sync data gagal, silahkan tekan tombol ulangi</string>
+    <string name="parserdata">Parsing Error, silahkan tekan ulangi</string>
+    <string name="error_gcm">Tidak ditemukan Google Play Service</string>
+    <string name="user_istyping">User is typing …</string>
+    <string name="cek_update_version">Silahkan Update Versi anda ke versi yang terbaru</string>
+
+    <!--Detail disease-->
+    <string name="related_article">Baca Juga</string>
+    <string name="reaseon_error_empty">Harap masukan alasan Anda</string>
+    <string name="out_closed">Keluar</string>
+    <string name="statistic_date_start">Dari Tanggal</string>
+    <string name="statistic_date_end">Sampai Tanggal</string>
+    <string name="statistic_question">Jenis Pertanyaan</string>
+
+    <string name="skip">Skip</string>
+    <string name="npwp_number">No. NPWP</string>
+    <string name="domicile_address">Alamat Sesuai NPWP</string>
+    <string name="error_address">Masukkan alamat sesuai NPWP anda</string>
+    <string name="error_npwp">Mohon isi NPWP dengan format yang benar</string>
+    <string name="error_npwp_empty">Mohon isi NPWP anda</string>
+    <string name="title_recommendation">Ulasan Pengguna</string>
+    <string name="idi_membership">IDI Membership</string>
+    <string name="education">Pendidikan</string>
+    <string name="place_practice">Praktek</string>
+    <string name="doctor_recommendation">Ulasan Pengguna</string>
+    <string name="no_recommendation_user">Saat ini dokter belum memiliki ulasan pengguna</string>
+    <string name="recommendation_show_more">Lihat Selengkapnya</string>
+    <string name="title_user_recommendation">Ulasan Pengguna</string>
+
+    <string name="cme_reference_title">Referensi</string>
+    <string name="general_search_hint">Cari Penyakit, Obat, Gejala…</string>
+
+    <string name="direct_question">pertanyaan langsung</string>
+    <string name="click_here">KLIK DISINI</string>
+
+    <string name="procedure_item_detail">Selengkapnya</string>
+    <string name="doctor_item_detail">Selengkapnya</string>
+    <string name="hospital_profile">Profil</string>
+    <string name="hospital_room">Biaya Kamar</string>
+    <string name="hospital_medical_treatment">Tindakan Medis</string>
+    <string name="hospital_medical_doctor">Dokter</string>
+    <string name="facility_text">FASILITAS</string>
+    <string name="facility_text_non_treatment_medical">FASILITAS NON TINDAKAN MEDIS</string>
+    <string name="isurance_medical">ASURANSI</string>
+    <string name="text_location">LOKASI</string>
+    <string name="show_more">Tampilkan lebih</string>
+    <string name="show_less">Tampilkan sedikit</string>
+
+    <string name="server_error_message">Mohon maaf server sedang bermasalah, silahkan coba beberapa saat lagi.</string>
+    <string name="doctor_profile">Profil</string>
+    <string name="doctor_schedule">Jadwal</string>
+    <string name="about_doctor">Tentang Dokter</string>
+    <string name="medical_treatment_doctor">Tindakan Medis</string>
+    <string name="price_doctor">Harga</string>
+    <string name="experience_doctor">Pengalaman</string>
+    <string name="share_relevant_no">Tidak</string>
+    <string name="share_relevant_yes">Ya</string>
+    <string name="doctor_item_hospital_others">Tempat Praktek Lainnya</string>
+    <string name="conclusion_text">Conclusion</string>
+    <string name="user_already_logout">Anda telah Logout, Silahkan login kembali</string>
+
+    <string name="forum">Diskusi Dokter</string>
+    <string name="job_apply">Apply</string>
+    <string name="forum_category_title">Topik Komunitas Dokter</string>
+    <string name="forum_thread_title">Diskusi Terbaru</string>
+    <string name="show_all">Selengkapnya</string>
+    <string name="thread_title">Diskusi</string>
+    <string name="title_my_thread">Diskusi Saya</string>
+    <string name="action_bookmark">Bookmark</string>
+    <string name="title_reply_thread">Balasan Saya</string>
+    <string name="title_bookmark">Bookmark</string>
+    <string name="thread_reply">Balas</string>
+    <string name="quote">Quote</string>
+    <string name="title_thread">Judul Diskusi</string>
+    <string name="thread_content">Tulis pertanyaan Anda</string>
+    <string name="title_reply">Judul Balasan</string>
+    <string name="reply_content">Isi Balasan</string>
+    <string name="add_image">Tambah Gambar</string>
+    <string name="title">Judul : </string>
+    <string name="content">Isi : </string>
+    <string name="dialog_title_bookmark">Bookmark</string>
+    <string name="dialog_message_bookmark">Anda akan bookmark diskusi ini ?</string>
+    <string name="dialog_message_unbookmark">Anda akan unbookmark diskusi ini ?</string>
+    <string name="like">Like</string>
+    <string name="dislike">Dislike</string>
+    <string name="more">Lebih</string>
+    <string name="less">Kurang</string>
+    <string name="edit">Ubah</string>
+    <string name="tnc">Fasilitas ini tidak bisa digunakan untuk mendapatkan kepastian diagnosis secara pribadi mengenai penyakit atau kondisi yang sedang diderita. Perbincangan di dalam aplikasi ini tidak bisa menggantikan interaksi langsung dengan dokter. Untuk kondisi-kondisi darurat, segera temui dokter Anda.</string>
+    <string name="write_allowed">Mohon maaf, anda belum mendapatkan akses membuat diskusi baru ataupun membalas diskusi yang tersedia. Info lebih lanjut bisa hubungi tim kami. Terima kasih.</string>
+    <string name="category">Category :</string>
+    <string name="thread_succesfully_posted">Diskusi Berhasil Diposting</string>
+    <string name="reply_succesfully_posted">Balasan Berhasil Diposting</string>
+    <string name="thread_succesfully_updated">Diskusi Berhasil Diperbarui</string>
+    <string name="reply_succesfully_updated">Balasan Berhasil Diperbarui</string>
+    <string name="thread_succesfully_posted_wait_moderation">Diskusi berhasil diposting! Mohon tunggu diskusi Anda akan di tampilkan setelah di moderasi oleh tim kami.</string>
+    <string name="reply_succesfully_posted_wait_moderation">Balasan berhasil diposting! Mohon tunggu balasan Anda akan di tampilkan setelah di moderasi oleh tim kami.</string>
+    <string name="thread_succesfully_updated_wait_moderation">Diskusi berhasil diperbarui! Mohon tunggu diskusi Anda akan di tampilkan setelah di moderasi oleh tim kami.</string>
+    <string name="reply_succesfully_updated_wait_moderation">Balasan berhasil diperbarui! Mohon tunggu balasan Anda akan di tampilkan setelah di moderasi oleh tim kami.</string>
+    <string name="replies">Balasan</string>
+    <string name="feed_email">Beritahu saya tentang tindak lanjut diskusi ini</string>
+    <string name="forum_tnc">Diskusi harus mengikuti <font color='blue'>Syarat dan Ketentuan</font> Alomedika.</string>
+    <string name="created_by">Oleh: </string>
+    <string name="apply_now">Apply Di Sini</string>
+    <string name="specialist_doctor">Dokter Spesialis</string>
+    <string name="specialist_doctor_email_to">Jika Anda Dokter Spesialis. Kirimkan resume, STR, dan Sertifikat Kompetensi ke:</string>
+    <string name="default_specialist_email">opsi@alodokter.com</string>
+    <string name="general_doctor">Dokter Umum</string>
+    <string name="general_doctor_click_here">Jika Anda Dokter Umum, klik tombol di bawah ini</string>
+    <string name="surat_tanda_registrasi">STR</string>
+    <string name="title_competency_certification_profile">Sertifikat Kompetensi</string>
+    <string name="hint_competency_certificate">Sertifikat Kompetensi</string>
+    <string name="hint_certificate_number">Nomor Sertifikat</string>
+    <string name="title_terms_and_conditions">Syarat dan Ketentuan</string>
+    <string name="title_privacy">Privasi</string>
+    <string name="find_city">Cari kota</string>
+    <string name="min_specialities_message">Pilih Peminatan Anda Minimal %d</string>
+    <string name="max_specialities_message">Pilih Peminatan Anda Maksimal %d</string>
+    <string name="select_profession_hint">Pilih Profesi</string>
+    <string name="error_profession">Pilih Profesi Anda</string>
+    <string name="default_profession">Dokter</string>
+    <string name="error_min_birth_date">Umur Minimal  %d Tahun</string>
+    <string name="welcome_user_message">Selamat Datang, %s</string>
+    <string name="unknown_city">Silahkan pilih kota yang tersedia</string>
+    <string name="empty_my_thread">Anda belum membuat diskusi</string>
+    <string name="create_thread">Buat Diskusi</string>
+    <string name="create_reply">Balas Diskusi</string>
+    <string name="partime_doctor_notif">Selamat! Anda telah resmi bergabung menjadi Dokter Alomedika\n\nKini Anda bisa menikmati seluruh fitur Alomedika: menjawab pertanyaan pasien, atur &amp; lihat jadwal, histori percakapan &amp; statistik, serta mengakses Pedoman Dokter</string>
+    <string name="valid_doctor_notif">Selamat, akun Anda telah berhasil diverifikasi\n\nKini Anda bisa menikmati fitur:\n\n1. Diskusi Dokter - Bertanya, berbagi informasi, dan pengalaman dengan dokter di seluruh Indonesia\n\n2. Apply - Dapatkan kesempatan bekerja dengan waktu fleksibel dan remunerasi menarik</string>
+    <string name="i_understand">Saya Mengerti</string>
+    <string name="cant_access">Status Anda masih dalam review, Anda baru bisa mengakses menu ini setelah kami memvalidasi status Anda</string>
+    <string name="address_on_npwp">Alamat Sesuai NPWP</string>
+    <string name="npwp_no">No. NPWP</string>
+    <string name="branch">Cabang</string>
+    <string name="bank_name">Nama Bank</string>
+    <string name="bank_account_no">No. Rekening</string>
+    <string name="account_name">Nama Account</string>
+    <string name="understand">Mengerti</string>
+    <string name="coachmark_apply_title">Anda bisa mendaftar untuk menjadi Dokter online Partime program kami</string>
+    <string name="coachmark_add_thread_title">Anda bisa ajukan pertanyaan kepada dokter sejawat</string>
+    <string name="rating">Rating</string>
+    <string name="spesialisasi_dokter">Spesialisasi</string>
+    <string name="reject">Tolak</string>
+    <string name="about_alomedika_points">Tentang Alomedika Points</string>
+    <string name="review">Ulasan</string>
+    <string name="question">Tanya</string>
+    <string name="sort">Urutkan</string>
+    <string name="just_replied">Terakhir dibalas</string>
+    <string name="newest">Terbaru</string>
+    <string name="most_replied">Paling banyak dibalas</string>
+    <string name="reply">Balas</string>
+    <string name="insert_link">Tambahkan Link</string>
+    <string name="text_to_display">Judul yang ditampilkan</string>
+    <string name="link_url">Link URL</string>
+    <string name="done">Selesai</string>
+    <string name="last_update">Update terakhir : </string>
+    <string name="ago"> yang lalu</string>
+    <string name="post_as_anonymous">Kirim sebagai anonim</string>
+    <string name="no_reply">0 Balasan</string>
+    <string name="view_all_reply">Lihat Semua Balasan (%d)</string>
+    <string name="hide_all_replies">Tutup Semua Balasan</string>
+    <string name="load_more">Load More</string>
+    <string name="direct_consult">Konsultasi Langsung</string>
+    <string name="online_consult">Konsultasi Online</string>
+    <string name="answered">Dijawab </string>
+    <string name="questioned">Ditanyakan </string>
+    <string name="cannot_access_data_download">File tidak bisa didownload, silakan periksa koneksi internet Anda</string>
+    <string name="alert_max_file">Maksimal file dokumen dibawah </string>
+    <string name="alert_max_image">Maksimal file image dibawah </string>
+    <string name="write_your_comment">Tulis balasan Anda</string>
+    <string name="anonym">Anonymous</string>
+    <string name="question_forum">TANYA FORUM</string>
+    <string name="faq">FAQ</string>
+    <string name="last_updated">Terakhir dibalas:</string>
+</resources>
